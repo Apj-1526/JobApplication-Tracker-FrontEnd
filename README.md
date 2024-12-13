@@ -1,10 +1,8 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### 
+In this file here is only one Admin while the admin can post jobs and view the application of the applicants and they can contact them by the email or phone number
 
-## Available Scripts
-
-In the project directory, you can run:
+while the user can apply for the jobs and can track them
 
 ### `npm start`
 
