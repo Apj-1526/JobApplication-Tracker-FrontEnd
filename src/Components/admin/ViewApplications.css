@@ -1,0 +1,116 @@
+.application-container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+	font-family: 'Arial', sans-serif;
+	background-color: #f9f9f9;
+	border-radius: 10px;
+	box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  }
+  
+  /* Title of the page */
+  .application-title {
+	text-align: center;
+	font-size: 2rem;
+	margin-bottom: 20px;
+	color: #333;
+  }
+  
+  /* Message for no applications */
+  .no-application-message {
+	text-align: center;
+	font-size: 1.2rem;
+	color: #666;
+	padding: 20px;
+  }
+  
+  /* Table styles */
+  .application-table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+	background-color: #fff;
+	border-radius: 8px;
+	overflow: hidden;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .application-table thead {
+	background-color: #4CAF50;
+	color: #fff;
+  }
+  
+  .application-table th {
+	padding: 15px;
+	text-align: center;
+	font-size: 1rem;
+	font-weight: bold;
+  }
+  
+  .application-table td {
+	padding: 15px;
+	text-align: center;
+	font-size: 0.9rem;
+	color: #333;
+	border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .application-table tr:hover {
+	background-color: #f1f1f1;
+  }
+  
+  .application-table tbody tr:last-child td {
+	border-bottom: none;
+  }
+  
+  .view-resume-link {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 8px 12px;
+	text-decoration: none;
+	border-radius: 4px;
+	transition: background-color 0.3s ease;
+  }
+  
+  .view-resume-link:hover {
+	background-color: #45a049;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+	.application-table, .application-table th, .application-table td {
+	  display: block;
+	  width: 100%;
+	}
+  
+	.application-table thead {
+	  display: none;
+	}
+  
+	.application-table tr {
+	  display: block;
+	  margin-bottom: 20px;
+	}
+  
+	.application-table td {
+	  text-align: right;
+	  padding: 10px;
+	  position: relative;
+	  border-bottom: 1px solid #e0e0e0;
+	}
+  
+	.application-table td::before {
+	  content: attr(data-label);
+	  position: absolute;
+	  left: 10px;
+	  font-weight: bold;
+	  text-align: left;
+	}
+  
+	.view-resume-link {
+	  display: block;
+	  width: 100%;
+	  text-align: center;
+	}
+  }
+  
